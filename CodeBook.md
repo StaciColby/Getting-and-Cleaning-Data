@@ -1,14 +1,14 @@
 Description of the variables:
-  X_train<-X train data 
-  Y_train<- Y train data
-  X_test<- x test data
-  Y_test<- y test data
-  features<- features data
+  X_train<-X train data. Keeps the same units as given in the data
+  Y_train<- Y train data. Keeps the same units as given in the data
+  X_test<- x test data. Keeps the same units as given in the data
+  Y_test<- y test data. Keeps the same units as given in the data
+  features<- features data. No units
   activity levels<- the combination of the y test and train data to get all activitiy levels
   subjects<- the subject data
   complied<- the compiled list of all of the data (x train, y train, y test, x, test and the subjects)
   std.cols<- the column numbers of the standard dev columns
-  cols_of_std<- stores the columns of the standard dev
+  cols_of_std<- stores the columns of the standard dev. This column keeps the units of the origional columns
   mean.cols/cols_of_mean<-same as std
   tidy_dataframe<- creates a data frame of the columns of the means and std dev's, and the activites and subjects
   uniq_activity<- gives the names of each activity once
